@@ -1,0 +1,26 @@
+{
+  "name": "typescript-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "push": "git add * && git commit -m update && git push",
+    "start": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielisaacgeslin/typescript-examples.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "daniel isaac geslin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielisaacgeslin/typescript-examples/issues"
+  },
+  "homepage": "https://github.com/danielisaacgeslin/typescript-examples#readme",
+  "devDependencies": {
+    "typescript": "^2.1.4"
+  }
+}
