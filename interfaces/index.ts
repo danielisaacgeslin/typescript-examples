@@ -13,11 +13,6 @@ interface IMovie {
     postComment(comment: string): number;
 }
 
-interface IPagination<T> {
-    list: T[];
-    rowCount: number;
-}
-
 /* models */
 class Actor implements IActor {
     constructor(
@@ -48,7 +43,7 @@ const bruce: IActor = new Actor(1, 'Bruce Willis');
 const joseph: IActor = new Actor(2, 'Joseph Gordon-Levitt', 'jeseph.jpg');
 const looper: IMovie = new Movie(1, 'Looper', [bruce, joseph]);
 const armageddon: IMovie = new Movie('abc', 'Armageddon', [bruce]);
-const tableData: IPagination<IMovie> = { list: [looper, armageddon], rowCount: 1 };
+
 const rateResult: boolean = looper.rate(5);
 const commentId: number = looper.postComment('grate movie');
 
