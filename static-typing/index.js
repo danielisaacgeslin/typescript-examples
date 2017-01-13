@@ -1,12 +1,12 @@
 /* basic types */
-var text = 'text';
-var count = 0;
-var valid = true;
-var data = { id: 1, name: 'daniel' };
-var list = [{ id: 1, name: 'daniel' }, { id: 2, name: 'isaac' }];
-var whatever = { a: 1, b: '2' };
-var whateverList = [{ a: 1, b: '2' }, { c: '3', d: 4 }];
-var x = ['a', true]; //tuple
+let text = 'text';
+let count = 0;
+let valid = true;
+let data = { id: 1, name: 'daniel' };
+let list = [{ id: 1, name: 'daniel' }, { id: 2, name: 'isaac' }];
+let whatever = { a: 1, b: '2' };
+let whateverList = [{ a: 1, b: '2' }, { c: '3', d: 4 }];
+let x = ['a', true]; //tuple
 /* parameters & returns */
 function sum(a, b) {
     return a + b;

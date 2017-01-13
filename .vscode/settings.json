@@ -15,6 +15,5 @@
         "prepend.js": false,
         "node_modules/**/*.js": false,
         "**/webpack.config.js": false
-    },
-    "typescript.tsdk": "node_modules/typescript/lib"
+    }
 }
