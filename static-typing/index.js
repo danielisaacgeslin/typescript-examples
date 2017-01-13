@@ -13,13 +13,12 @@ function sum(a, b) {
 }
 function doNothing() {
 }
-;
 function getHalfs(a) {
     return [a / 2, a / 2];
 }
-;
 function getType(a) {
     return typeof a;
 }
-;
+function optional(a) {
+}
 //# sourceMappingURL=index.js.map

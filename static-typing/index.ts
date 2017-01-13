@@ -14,10 +14,13 @@ function sum(a: number, b: number): number {
 }
 function doNothing(): void {
 
-};
+}
 function getHalfs(a: number): number[] {
     return [a / 2, a / 2]
-};
+}
 function getType(a: any): string {
     return typeof a
-};
+}
+function optional(a?: string): void {
+
+}
